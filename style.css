@@ -5,7 +5,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html {
+
+html,
+body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 150px;
+    /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    position: relative;
+    margin-top: -150px;
+    /* negative value of footer height */
+    height: 150px;
+    clear: both;
+    padding-top: 20px;
+}
+
+
+
+/* html {
     height: 100%;
 }
 
@@ -27,7 +54,7 @@ header {
 footer{
     padding: 3em;
     margin-top: auto;
-}
+} */
 
 
 li {
@@ -38,7 +65,7 @@ a {
     text-decoration: none;
 }
 
-
+/* 
 header {
     display: flex;
 }
@@ -121,10 +148,10 @@ a {
 
 .others li:nth-child(3) button i {
     padding-right: 6px;
-}
+} */
 
 /*-------------------------------------slide----------------------*/
-.slideshow-container {
+/* .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: 20px auto;
@@ -177,7 +204,7 @@ a {
 }
 
 /*-----------------------------------Product-------------------------------------*/
-.product-item {
+/* .product-item {
     width: 23%;
     margin: 1%;
     padding: 10px;
@@ -190,7 +217,7 @@ a {
     text-align: center;
     background: #fff;
     /*height: 175px;*/
-    white-space: nowrap;
+/* white-space: nowrap;
 }
 
 .product-item .card-title {
@@ -297,10 +324,10 @@ footer {
     height: 50px;
     margin-top: auto;
     width: 100%;
-}
+}  */
 
 /*------------------------product----------------------------------*/
-.product{
+/* .product{
     padding: 10px 0;
 }
 .product-top{
@@ -439,9 +466,9 @@ footer {
 
 .activeB {
     display: none;
-}
+} */
 /*-------------------------cart-------------------------------*/
-.cart {
+/* .cart {
     padding: 100px 0;
 }
 .cart-content-left {
@@ -454,4 +481,4 @@ footer {
 }
 .card-content-right {
     flex: 1;
-}
+} */
